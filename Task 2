@@ -33,6 +33,6 @@ public class StudentGrade {
     System.out.println("The total marks is:"+totalmarks);
     System.out.println("The percentage is:"+average+" "+"%");
     System.out.println("The grade obtained is:"+Grade);
-
+     sc.close();
   }
 }
