@@ -40,5 +40,6 @@ public static void main(String[] args) {
     }
     System.out.println("The game is done");
     System.out.println("Your score is:"+score);
+     sc.close();
     }
-}
+  }
