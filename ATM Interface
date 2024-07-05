@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class Bank {
- private double bankbalance;
-    Scanner sc = new Scanner(System.in);
+     double bankbalance;
 
    public Bank(double minimumbalnce){
     this.bankbalance=minimumbalnce;
@@ -76,5 +75,12 @@ public class Bank {
                     break;
          }
       }
+   }
+}
+public class Main{
+   public static void main(String[] args) {
+     Bank Iob= new Bank(1000);
+     ATM atm = new ATM(Iob);
+     atm.transaction();
    }
 }
