@@ -10,7 +10,7 @@ public class Bank {
      System.out.println("The Balance Amount is:"+bankbalance);
    }
     public void withdrawl(double amt){
-        if(amt<bankbalance){
+        if(amt<=bankbalance){
             System.out.println("The transaction has taken place");
             System.out.println("Balance amount is:"+(bankbalance-amt));
         }
@@ -74,6 +74,7 @@ public class Bank {
                 System.out.println("Transaction is Invalid! Select a valid one");
                     break;
          }
+                System.out.println("Transaction has processed succesfully!");
       }
    }
 }
